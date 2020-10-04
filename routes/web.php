@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/home', 'PageController@home');
 
 Route::get('/status', 'PageController@status');
+
+Route::get('/user', 'UserController@create');
