@@ -13,6 +13,6 @@ class PageController extends Controller
 
     Public function status()
     {
-        return 'ok';
+        return 'berhasil';
     }
 }
